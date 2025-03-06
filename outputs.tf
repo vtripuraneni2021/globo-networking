@@ -2,7 +2,7 @@
 # OUTPUT
 ##################################################################################
 output "vpc_id" {
-  value       = module.main.vpc_cidr_block
+  value       = module.main.vpc_id
   description = "VPC ID"
 }
 
